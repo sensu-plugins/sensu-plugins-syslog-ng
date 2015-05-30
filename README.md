@@ -9,7 +9,7 @@
 ## Functionality
 
 ## Files
- * bin/metrics-syslog-ng
+ * bin/metrics-syslog-ng,rb
 
 ## Usage
 
