@@ -1,6 +1,6 @@
 ## Sensu-Plugins-syslog-ng
 
-[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-syslog-ng.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-syslog-ng)
+[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-syslog-ng.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-syslog-ng)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-syslog-ng.svg)](http://badge.fury.io/rb/sensu-plugins-syslog-ng)
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-syslog-ng/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-syslog-ng)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-syslog-ng/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-syslog-ng)
