@@ -5,7 +5,6 @@
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-syslog-ng/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-syslog-ng)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-syslog-ng/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-syslog-ng)
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-syslog-ng.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-syslog-ng)
-[ ![Codeship Status for sensu-plugins/sensu-plugins-syslog-ng](https://codeship.com/projects/4aa67f10-e89f-0132-3bde-62885e5c211b/status?branch=master)](https://codeship.com/projects/82849)
 
 ## Functionality
 

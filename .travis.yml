@@ -1,19 +1,33 @@
 language: ruby
 cache:
-  - bundler
+- bundler
 install:
-  - bundle install
+- bundle install
 rvm:
-  - 1.9.3
-  - 2.0
-  - 2.1
-  - 2.2
+- 1.9.3
+- 2.0
+- 2.1
+- 2.2
 notifications:
   email:
     recipients:
-      - sensu-plugin@sensu-plugins.io
+    - sensu-plugin@sensu-plugins.io
     on_success: change
     on_failure: always
-
 script:
-  - 'bundle exec rake default'
+- bundle exec rake default
+- gem build sensu-plugins-syslog-ng.gemspec
+- gem install sensu-plugins-syslog-ng-*.gem
+deploy:
+  provider: rubygems
+  api_key:
+    secure: lY/l3vfMogLicxqvdUuD1qO8Gl1DuS88kOTlYZlO8lRL8bfXkB/kL4fk/pWmIfKzuAisWjnRQp+CjWAwF0lSlI/gOs0MsdJnnOpWrI8LlA1fqkDYIjkhYS7vMYOD9Hki7IpjnraE9FB4EVlkA9xO1lDiYFXXg9af4EqTRIFD8mY=
+  gem: sensu-plugins-syslog-ng
+  on:
+    ags: true
+    all_branches: true
+    rvm: 1.9.3
+    rvm: 2.0
+    rvm: 2.1
+    rvm: 2.2
+    repo: sensu-plugins/sensu-plugins-syslog-ng
